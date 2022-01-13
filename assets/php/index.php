@@ -12,7 +12,7 @@
         <header id="header">
             <div class="site-brand">
                 <h1>
-                    Titre
+                    Dynmap
                 </h1>
             </div>
         </header>
