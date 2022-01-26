@@ -8,24 +8,24 @@
         <link rel="stylesheet" href="css.css"/>
     </head>
 
-    <body>
+    <body style="margin: 0; width: 100%;">
         <header id="header">
-            <div class="site-brand">
-                <img src="../src/img/logo-site.png" alt="Logo de Speleccio">
+            <div class="site-brand" style="width: 100%; height: auto;">
+                <img src="../../src/img/logo-site.png" alt="Logo de Speleccio" style="width: 100%; height: auto;">
             </div>
             <nav class="navbar" role="navigation">
                 <ul>
                     <li>
-                        <a href="index.php">
+                        <a href="news.php">
                             <span>
-                                Speleccio
+                                Les News
                             </span>
                         </a>
                     </li>
                     <li>
-                        <a href="membres.php">
+                        <a href="wiki.php">
                             <span>
-                                 Les Membres
+                                 Le Wiki
                             </span>
                         </a>
                     </li>
@@ -36,22 +36,31 @@
                             </span>
                         </a>
                     </li>
+                    <li>
+                        <a href="login.php">
+                            Se Connecter
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </header>
-        <main>
-            <section>
-                <img src="navbar.png" width="256px" height="auto"/>
-                <div>
-                    <object class="dynmap" frameborder="0" data="http://51.77.169.168:25567/?worldname=world&mapname=flat&zoom=75&x=801&y=64&z=-467#" width="100%" height="500px"></object>
+        <main id="main">
+            <section id="presentation">
+                <div class="description">
+                </div>
+                <div class="trailer">
                 </div>
             </section>
-            <section>
-                <div>
+            <section id="event-and-news">
+                <div class="carousel">
                 </div>
             </section>
-            <section>
-                <div>
+            <section id="diffusions">
+                <div class="card diffusions">
+                    <div class="lives">
+                    </div>
+                    <div class="videos">
+                    </div>
                 </div>
             </section>
         </main>
@@ -60,3 +69,7 @@
         </footer>
     </body>
 </html>
+
+
+
+<!--<object class="dynmap" frameborder="0" data="http://51.77.169.168:25567/?worldname=world&mapname=flat&zoom=75&x=801&y=64&z=-467#" width="100%" height="500px"></object>-->
