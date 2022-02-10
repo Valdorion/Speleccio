@@ -1,3 +1,7 @@
+<?php
+include_once "../config.php";
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -5,13 +9,13 @@
         <title>
             Speleccio
         </title>
-        <link rel="stylesheet" href="css.css"/>
+        <link rel="stylesheet" href="../../../assets/css/app.css"/>
     </head>
 
-    <body style="margin: 0; width: 100%;">
+    <body style="margin:0">
         <header id="header">
             <div class="site-brand" style="width: 100%; height: auto;">
-                <img src="../../src/img/site-band.png" alt="Logo de Speleccio" style="width: 100%; height: 5rem;">
+                <img src="assets/img/site-band.png" alt="Logo de Speleccio" style="width: 100%; height: 5rem;">
             </div>
             <nav class="navbar" role="navigation">
                 <ul>
@@ -44,32 +48,3 @@
                 </ul>
             </nav>
         </header>
-        <main id="main">
-            <section id="presentation">
-                <div class="description">
-                </div>
-                <div class="trailer">
-                </div>
-            </section>
-            <section id="event-and-news">
-                <div class="carousel">
-                </div>
-            </section>
-            <section id="diffusions">
-                <div class="card diffusions">
-                    <div class="lives">
-                    </div>
-                    <div class="videos">
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer>
-            
-        </footer>
-    </body>
-</html>
-
-
-
-<!--<object class="dynmap" frameborder="0" data="http://51.77.169.168:25567/?worldname=world&mapname=surface&zoom=4&x=740&y=64&z=-590#" width="100%" height="500px"></object>-->
