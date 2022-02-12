@@ -1,12 +1,12 @@
 <footer id="footer">
     <div class="container">
         <div class="footer-cgu">
-            <a href="../page/cgu.php" rel="noopener noreferrer">
+            <a href="src/php/page/cgu.php" rel="noopener noreferrer">
                 Conditions d'utilisation
             </a>
         </div>
         <div class="footer-contact">
-            <a href="../page/contact.php" class="contact">
+            <a href="src/php/page/contact.php" class="contact">
                 Prendre contact
             </a>
         </div>

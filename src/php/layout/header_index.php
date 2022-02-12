@@ -1,5 +1,5 @@
 <?php
-include_once "../config.php";
+include_once "src/php/config.php";
 ?>
 
 <!DOCTYPE html>
@@ -9,13 +9,14 @@ include_once "../config.php";
         <title>
             Speleccio
         </title>
-        <link rel="stylesheet" href="../../../assets/css/app.css"/>
+        <link rel="stylesheet" href="assets/css/app.css"/>
+        <link rel="icon" type="image/png" href="assets/img/speleccio_logo.png" />
     </head>
 
     <body style="margin:0">
         <header id="header">
             <div class="site-brand" style="width: 100%; height: auto;">
-                <img src="../../../assets/img/site-band.png" alt="Logo de Speleccio" style="width: 100%; height: 5rem;">
+                <img src="assets/img/site-band.png" alt="Logo de Speleccio" style="width: 100%; height: 5rem;">
             </div>
             <nav class="navbar" role="navigation">
                 <ul>
