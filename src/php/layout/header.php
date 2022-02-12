@@ -41,6 +41,11 @@ include_once "../config.php";
                         </a>
                     </li>
                     <li>
+                        <a href="players.php">
+                            Joueurs
+                        </a>
+                    </li>
+                    <li>
                         <a href="login.php">
                             Se Connecter
                         </a>
