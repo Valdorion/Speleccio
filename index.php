@@ -17,6 +17,7 @@
     </section>
     <section id="event-and-news">
         <div class="carousel">
+            <a href="/src/php/page/404_error.php">404</a>
         </div>
     </section>
     <section id="diffusions">
