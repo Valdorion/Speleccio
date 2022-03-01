@@ -1,5 +1,6 @@
 <?php
 include_once "src/php/config.php";
+include_once "src/php/action/login.php";
 ?>
 
 <!DOCTYPE html>
