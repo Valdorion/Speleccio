@@ -1,7 +1,7 @@
 <footer id="footer">
     <div class="container">
         <div class="footer-cgu">
-            <a href="../page/cgu.php" rel="noopener noreferrer">
+            <a href="../page/cgu.php" target="_blank">
                 Conditions d'utilisation
             </a>
         </div>
