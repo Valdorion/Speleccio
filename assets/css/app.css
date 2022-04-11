@@ -1,3 +1,7 @@
+header {
+  background-image: url(../../../assets/img/site-band.png);
+}
+
 body {
   margin: 0;
   font-family: "Maven Pro", sans-serif;

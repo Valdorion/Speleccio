@@ -17,42 +17,57 @@ include_once "../action/login.php";
     </head>
 
     <body style="margin:0">
-        <header id="header">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <img src="../../../assets/img/speleccio_logo.png" alt="" height="30">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+            <a href="index.php" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 ms-5 text-dark text-decoration-none">
+                <img src="../../../assets/img/speleccio_logo.png" alt="" height="45">
+                <span class="ms-3 link-light">
+                    Accueil
+                </span>
+            </a>
+        
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li>
+                    <a class="nav-link px-2 link-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Wiki
                     </a>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mb-2 mb-lg-0" style="width: 100%;">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.php">Accueil</a>
-                            </li>
-                            <div class="position-relative" style="border:solid 1px black; margin: 0% 40%; display: flex; align-items: center; align-content: center;">
-                                <li class="nav-item">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Wiki
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="#">Les commandes</a></li>
-                                        <li><a class="dropdown-item" href="#">Les rangs</a></li>
-                                        <li><a class="dropdown-item" href="#">Les quêtes</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Projets
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="#">Les commandes</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item" style="display: flex; align-items: center; align-content: center;">
-                                    <a class="nav-link" href="index.php">Les News</a>
-                                </li>
-                            </div>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </header>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Les commandes
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Les rangs
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Les quêtes
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="nav-link px-2 link-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Projets
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                Les commandes
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="nav-link px-2 link-light">
+                        Les News
+                    </a>
+                </li>
+            </ul>
+
+            <div class="col-md-3 text-end">
+                <button type="button" class="btn me-5 btn-outline-light me-2">Login</button>
+            </div>
+    </header>
